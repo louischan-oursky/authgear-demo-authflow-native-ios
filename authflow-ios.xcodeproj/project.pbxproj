@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778C53322B0B7FC4004FA17A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C53312B0B7FC4004FA17A /* AppDelegate.swift */; };
+		778C53342B0B7FC4004FA17A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C53332B0B7FC4004FA17A /* SceneDelegate.swift */; };
+		778C53362B0B7FC4004FA17A /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C53352B0B7FC4004FA17A /* FirstScreen.swift */; };
+		778C53392B0B7FC4004FA17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C53372B0B7FC4004FA17A /* Main.storyboard */; };
+		778C533B2B0B7FC6004FA17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778C533A2B0B7FC6004FA17A /* Assets.xcassets */; };
+		778C533E2B0B7FC6004FA17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C533C2B0B7FC6004FA17A /* LaunchScreen.storyboard */; };
+		778C53472B0B8057004FA17A /* Authgear in Frameworks */ = {isa = PBXBuildFile; productRef = 778C53462B0B8057004FA17A /* Authgear */; };
+		778C53492B0B845B004FA17A /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C53482B0B845B004FA17A /* SecondScreen.swift */; };
+		778C534B2B0B928A004FA17A /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C534A2B0B928A004FA17A /* Types.swift */; };
+		778C534D2B0B93DF004FA17A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C534C2B0B93DF004FA17A /* JSON.swift */; };
+		778C534F2B0B9810004FA17A /* Authflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C534E2B0B9810004FA17A /* Authflow.swift */; };
+		778C53512B0B9E7B004FA17A /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C53502B0B9E7B004FA17A /* ThirdScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		778C532E2B0B7FC4004FA17A /* authflow-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "authflow-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778C53312B0B7FC4004FA17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		778C53332B0B7FC4004FA17A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		778C53352B0B7FC4004FA17A /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		778C53382B0B7FC4004FA17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		778C533A2B0B7FC6004FA17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		778C533D2B0B7FC6004FA17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		778C533F2B0B7FC6004FA17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778C53482B0B845B004FA17A /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		778C534A2B0B928A004FA17A /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		778C534C2B0B93DF004FA17A /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		778C534E2B0B9810004FA17A /* Authflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authflow.swift; sourceTree = "<group>"; };
+		778C53502B0B9E7B004FA17A /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778C532B2B0B7FC4004FA17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C53472B0B8057004FA17A /* Authgear in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778C53252B0B7FC4004FA17A = {
+			isa = PBXGroup;
+			children = (
+				778C53302B0B7FC4004FA17A /* authflow-ios */,
+				778C532F2B0B7FC4004FA17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778C532F2B0B7FC4004FA17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778C532E2B0B7FC4004FA17A /* authflow-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778C53302B0B7FC4004FA17A /* authflow-ios */ = {
+			isa = PBXGroup;
+			children = (
+				778C53312B0B7FC4004FA17A /* AppDelegate.swift */,
+				778C53332B0B7FC4004FA17A /* SceneDelegate.swift */,
+				778C53352B0B7FC4004FA17A /* FirstScreen.swift */,
+				778C53482B0B845B004FA17A /* SecondScreen.swift */,
+				778C53502B0B9E7B004FA17A /* ThirdScreen.swift */,
+				778C534A2B0B928A004FA17A /* Types.swift */,
+				778C534E2B0B9810004FA17A /* Authflow.swift */,
+				778C534C2B0B93DF004FA17A /* JSON.swift */,
+				778C53372B0B7FC4004FA17A /* Main.storyboard */,
+				778C533A2B0B7FC6004FA17A /* Assets.xcassets */,
+				778C533C2B0B7FC6004FA17A /* LaunchScreen.storyboard */,
+				778C533F2B0B7FC6004FA17A /* Info.plist */,
+			);
+			path = "authflow-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778C532D2B0B7FC4004FA17A /* authflow-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778C53422B0B7FC6004FA17A /* Build configuration list for PBXNativeTarget "authflow-ios" */;
+			buildPhases = (
+				778C532A2B0B7FC4004FA17A /* Sources */,
+				778C532B2B0B7FC4004FA17A /* Frameworks */,
+				778C532C2B0B7FC4004FA17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "authflow-ios";
+			packageProductDependencies = (
+				778C53462B0B8057004FA17A /* Authgear */,
+			);
+			productName = "authflow-ios";
+			productReference = 778C532E2B0B7FC4004FA17A /* authflow-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778C53262B0B7FC4004FA17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					778C532D2B0B7FC4004FA17A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 778C53292B0B7FC4004FA17A /* Build configuration list for PBXProject "authflow-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 778C53252B0B7FC4004FA17A;
+			packageReferences = (
+				778C53452B0B8057004FA17A /* XCRemoteSwiftPackageReference "authgear-sdk-ios" */,
+			);
+			productRefGroup = 778C532F2B0B7FC4004FA17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778C532D2B0B7FC4004FA17A /* authflow-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778C532C2B0B7FC4004FA17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C533E2B0B7FC6004FA17A /* LaunchScreen.storyboard in Resources */,
+				778C533B2B0B7FC6004FA17A /* Assets.xcassets in Resources */,
+				778C53392B0B7FC4004FA17A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778C532A2B0B7FC4004FA17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C534F2B0B9810004FA17A /* Authflow.swift in Sources */,
+				778C53362B0B7FC4004FA17A /* FirstScreen.swift in Sources */,
+				778C53492B0B845B004FA17A /* SecondScreen.swift in Sources */,
+				778C53322B0B7FC4004FA17A /* AppDelegate.swift in Sources */,
+				778C534B2B0B928A004FA17A /* Types.swift in Sources */,
+				778C53342B0B7FC4004FA17A /* SceneDelegate.swift in Sources */,
+				778C534D2B0B93DF004FA17A /* JSON.swift in Sources */,
+				778C53512B0B9E7B004FA17A /* ThirdScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		778C53372B0B7FC4004FA17A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778C53382B0B7FC4004FA17A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		778C533C2B0B7FC6004FA17A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778C533D2B0B7FC6004FA17A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		778C53402B0B7FC6004FA17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		778C53412B0B7FC6004FA17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778C53432B0B7FC6004FA17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H54Q98E5L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "authflow-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iawaknahc.demo.authflow-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778C53442B0B7FC6004FA17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H54Q98E5L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "authflow-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iawaknahc.demo.authflow-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778C53292B0B7FC4004FA17A /* Build configuration list for PBXProject "authflow-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778C53402B0B7FC6004FA17A /* Debug */,
+				778C53412B0B7FC6004FA17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778C53422B0B7FC6004FA17A /* Build configuration list for PBXNativeTarget "authflow-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778C53432B0B7FC6004FA17A /* Debug */,
+				778C53442B0B7FC6004FA17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		778C53452B0B8057004FA17A /* XCRemoteSwiftPackageReference "authgear-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/authgear/authgear-sdk-ios";
+			requirement = {
+				kind = revision;
+				revision = 6b944e41d3884f346251673c2add7daf57d3eb3b;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		778C53462B0B8057004FA17A /* Authgear */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 778C53452B0B8057004FA17A /* XCRemoteSwiftPackageReference "authgear-sdk-ios" */;
+			productName = Authgear;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 778C53262B0B7FC4004FA17A /* Project object */;
+}

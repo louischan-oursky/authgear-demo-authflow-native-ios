@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "authgear-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/authgear/authgear-sdk-ios",
+      "state" : {
+        "revision" : "6b944e41d3884f346251673c2add7daf57d3eb3b"
+      }
+    }
+  ],
+  "version" : 2
+}
